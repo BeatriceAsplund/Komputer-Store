@@ -19,7 +19,7 @@ function getLoan() {
 
         loanButton.disabled = true;
     } else {
-        alert("You cannot get a loan of that size");
+        alert("You can't get a loan of that size");
     }    
 }
 
@@ -70,28 +70,29 @@ const Äppul = new Computer(
     1000,
     "This is a computer. Amazing, I know!",
     "• Has a screen" + '<br>' + "• Has a keyboard, too" + '<br>' + "• A battery that lasts 30 minutes",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tatung-einstein-computer.png/1024px-Tatung-einstein-computer.png");
+    "https://assets.stickpng.com/thumbs/585466ce28fc2508128fec5e.png");
 
 const Dill = new Computer(
     "Dill 5000x", 
     2500,
-    "WOW",
+    "This would be a great Christmas gift to give to a toddler (they will be happy even if it is a brick!).",
     "• Is only a little broken" + '<br>' + "• Smells kinda funny" + '<br>' + "• Can be used as a coaster",
-    "https://img.pngio.com/the-pc-is-old-lady-at-computer-png-400_292.png");
+    "https://www.pngkey.com/png/full/314-3145216_broken-laptop-screen-liquid-crystal-display.png");
 
 const Simsong = new Computer(
     "Simsong Universe", 
     4000,
-    "WOW",
+    "This computer can do anything! Sit on it, and it becomes a cushy seat!",
     "• Turns on in 10 minutes or less" + '<br>' + "• Has a very modern dirt colour" + '<br>' + "• Very thin (might have been sat on)",
-    "image here later");
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tatung-einstein-computer.png/1024px-Tatung-einstein-computer.png");
 
 const Åsus = new Computer(
     "Åsüs WOW", 
     1300,
-    "WOW",
+    "This baby will keep you warm during the winter, and the sound of the hardworking fan goes great with meditation.",
     "• The fan works sometimes" + '<br>' + "• Can be used as a heater" + '<br>' + "• Has a cool name",
-    "image here later");
+    "https://img.pngio.com/the-pc-is-old-lady-at-computer-png-400_292.png");
+
 
 äppulElement.innerHTML = Äppul.name + " " + Äppul.price + " SEK";
 dillElement.innerHTML = Dill.name + " " + Dill.price + " SEK";
