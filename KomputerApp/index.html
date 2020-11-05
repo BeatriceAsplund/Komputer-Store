@@ -24,25 +24,24 @@
 
     <div id="laptopSelection" class="cards">
         <p class="divHeader">Laptops</p>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropButton">Dropdown</button>
-            <div id="dropdownMenu" class="dropdownContent">
-                <a id="äppul"></a>
-                <a id="dill"></a>
-                <a id="simsong"></a>
-                <a id="åsus"></a>
-            </div>
-        </div>
-        <p>Features</p>
+        <select  onclick="selectComputer()" id="selectbox">
+            <option id="äppul" value="äppul"></option>
+            <option id="dill" value="dill"></option>
+            <option id="simsong" value="simsong"></option>
+            <option id="åsus" value="åsus"></option>
+        </select>
+        <p>Features: </p>
         <p id="computerFeatures"></p>
     </div>
 
     <div id="infoSection" class="cards">
-        <h2>Info Box (should be name of computer from laptops div)</h2>
-        <p>An image</p>
-        <p>Name and more information</p>
-        <p>Price</p>
-        <p>Buy now BUTTON (tests if bank balance => computer price)</p>
+        <p id="infoHeader" class="divHeader"></p>
+        <div id="imageContainer">
+            <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tatung-einstein-computer.png/1024px-Tatung-einstein-computer.png">
+        </div>
+        <p id="description"></p>
+        <p id="price"></p>
+        <button id="buyButton">BUY NOW</button>
     </div>
 
     <script src="app.js" type="text/javascript"></script>
