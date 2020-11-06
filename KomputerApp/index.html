@@ -24,15 +24,15 @@
         </div>
 
         <div id="laptopSelection" class="cards">
-            <p class="divHeader">Laptops</p>
+            <p class="divHeader">Komputers</p>
             <select  onclick="selectComputer()" id="selectbox">
                 <option id="äppul" value="äppul"></option>
                 <option id="dill" value="dill"></option>
                 <option id="simsong" value="simsong"></option>
                 <option id="åsus" value="åsus"></option>
             </select>
-            <p>Features: </p>
-            <p id="computerFeatures"></p>
+            <div id="features">Features: </div>
+            <div id="computerFeatures"></div>
         </div>
     </div>
 
@@ -43,7 +43,9 @@
         </div>
         <div id="description"></div>
         <div id="price"></div>
-        <button id="buyButton">BUY NOW</button>
+        <div id="buyButtonContainer">
+            <button id="buyButton">BUY NOW</button>
+        </div>
     </div>
 
     <script src="app.js" type="text/javascript"></script>
